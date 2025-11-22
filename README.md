@@ -1,4 +1,4 @@
-# Multimodal RAG System (GenAI Assignment 3)
+# Multimodal RAG System
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline capable of parsing PDFs, understanding text and charts (via OCR), and answering user queries using either local LLMs (Ollama) or hosted API models (Gemini / Groq).
 
