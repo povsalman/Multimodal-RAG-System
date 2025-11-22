@@ -1,0 +1,32 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+
+# VSCode
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Model / embeddings cache
+vector_db/
+extracted_images/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ignore uploaded temp files
+*.tmp
