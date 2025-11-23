@@ -23,6 +23,29 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline capable 
   - Groq
   - Store them in a `.env` file (see below). Local usage does not require keys.
 
+## Required Libraries
+
+The project uses the following Python libraries (see `requirements.txt`):
+
+- **streamlit** - Web UI framework
+- **langchain** - Core LangChain framework
+- **langchain-community** - Community integrations for LangChain
+- **langchain-huggingface** - HuggingFace embeddings integration
+- **langchain-chroma** - ChromaDB vector store integration
+- **langchain-google-genai** - Google Gemini API integration
+- **langchain-groq** - Groq API integration
+- **chromadb** - Vector database for embeddings
+- **pypdf** - PDF processing utilities
+- **pdfplumber** - Advanced PDF parsing (text, tables, images)
+- **pytesseract** - Python wrapper for Tesseract OCR
+- **Pillow** - Image processing library
+- **sentence-transformers** - Embedding models and CLIP for vision
+- **torch** - PyTorch for deep learning models
+- **transformers** - HuggingFace transformers library
+- **ollama** - Ollama API client for local models
+- **python-dotenv** - Environment variable management
+- **numpy** - Numerical computing library
+
 ## Installation
 
 1. Create a virtual environment (optional):
